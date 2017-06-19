@@ -1,0 +1,27 @@
+{
+    "visual": {
+        "name": "imageCard",
+        "displayName": "ImageCard",
+        "guid": "imageCardB84D237C719542A2A9FA42A20997B828",
+        "visualClassName": "Visual",
+        "version": "1.0.0",
+        "description": "Image card used to show an image",
+        "supportUrl": "",
+        "gitHubUrl": ""
+    },
+    "apiVersion": "1.7.0",
+    "author": {
+        "name": "SceneSkope Ltd",
+        "email": "nick.randell@sceneskope.com"
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS": [
+        "node_modules/powerbi-visuals-utils-dataviewutils/lib/index.js"
+    ],
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": "dependencies.json",
+    "stringResources": []
+}

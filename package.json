@@ -1,0 +1,28 @@
+{
+  "name": "image-card",
+  "version": "1.0.0",
+  "description": "A card used for showing an image",
+  "repository": {
+    "type": "git",
+    "url": "git+https://sceneskope.visualstudio.com/DefaultCollection/_git/PowerBI-visuals-sceneskope-card"
+  },
+  "keywords": [
+    "powerbi-visuals"
+  ],
+  "scripts": {
+    "pbiviz": "pbiviz",
+    "start": "pbiviz start --mute",
+    "package": "pbiviz package",
+    "lint": "node node_modules/tslint/bin/tslint \"+(src|test)/**/*.ts\""
+  },
+  "author": {
+    "name": "SceneSkope",
+    "email": "nick.randell@sceneskope.com"
+  },
+  "license": "SceneSkope",
+  "homepage": "https://sceneskope.visualstudio.com/DefaultCollection/_git/PowerBI-visuals-sceneskope-card#readme",
+  "devDependencies": {
+    "powerbi-visuals-utils-dataviewutils": "^1.2.0",
+    "tslint": "5.4.3"
+  }
+}

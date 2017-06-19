@@ -1,0 +1,44 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "Url",
+            "name": "Url",
+            "kind": "Measure",
+            "description": "The url to display"
+        }
+    ],
+    "dataViewMappings": [
+        {
+            "conditions": [
+                {
+                    "Url": {
+                        "max": 1
+                    }
+                }
+            ],
+            "single": {
+                "role": "Url"
+            }
+        }
+    ],
+    "objects": {
+        "behavior": {
+            "displayName": "Look and Feel",
+            "properties": {
+                "resizeX": {
+                    "displayName": "Resize X",
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "resizeY": {
+                    "displayName": "Resize Y",
+                    "type": {
+                        "bool": true
+                    }
+                }
+            }
+        }
+    },
+    "suppressDefaultTitle": true
+}
